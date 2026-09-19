@@ -1,6 +1,6 @@
 import Header from "./components/Header";
-
-
+import Hero from "./components/Hero";
+import Recursos from "./components/Recursos";
 import Sobre from "./components/Sobre";
 import Footer from "./components/Footer";
 
@@ -11,8 +11,8 @@ export default function App() {
       <Header />
 
       <main>
-
-      <RecursoCard />
+      <Hero/>
+      <Recursos />
       <Sobre />
       </main>
 

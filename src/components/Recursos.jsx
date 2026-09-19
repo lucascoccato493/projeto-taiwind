@@ -35,6 +35,8 @@ export default function Recursos() {
             toda a apresentação da interface.
         </p>
 
+        </div>
+
         <div
         className="
         mt-10
@@ -45,13 +47,35 @@ export default function Recursos() {
         "
         >
             <RecursoCard
-            icone="🎨"
-            titulo="Estilização"
-            descricao="
-            "
-            ></RecursoCard>
+                icone="🎨"
+                titulo="Estilização"
+                descricao="
+                Cores, fontes, espaçamento,
+                bordas, sombras e muito mais.
+                "
+            />
+            
+            <RecursoCard
+                icone="📱"
+                titulo="Responsividade"
+                descricao="
+                Crie layouts que se adaptam
+                a celular, tablet e desktop.
+                "
+            />
+
+            <RecursoCard
+                icone="💡"
+                titulo="Produtividade"
+                descricao="
+                Monte interfaces rapidamente
+                utilizando classes utilitárias.
+                "
+            />
+        
+        
         </div>
-        </div>
+
     </section>
     )
 }
